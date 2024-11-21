@@ -1,0 +1,118 @@
+body {
+  margin: 16px;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+  color: #2e2f42;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.text-link {
+  margin-bottom: 20px;
+}
+
+.go-back-link {
+  display: block;
+  max-width: 85px;
+  padding: 8px;
+  border: 1px solid #212121;
+  border-radius: 8px;
+  transition: background-color 250ms linear;
+}
+
+.go-back-link:hover,
+.go-back-link:focus {
+  background-color: #c9c6c6;
+}
+
+#controls {
+  border-radius: 8px;
+  padding: 32px;
+  width: fit-content;
+  background-color: #f6f6fe;
+  margin: 0 auto 16px;
+}
+
+.input-number {
+  text-align: center;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  width: 150px;
+  height: 40px;
+  margin-right: 16px;
+}
+
+.create-btn {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background-color: #4e75ff;
+  cursor: pointer;
+  margin-right: 16px;
+  min-width: 120px;
+}
+
+.create-btn:hover,
+.create-btn:focus {
+  background-color: #6c8cff;
+}
+
+.destroy-btn {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background-color: #ff4e4e;
+  cursor: pointer;
+  min-width: 120px;
+}
+
+.destroy-btn:hover,
+.destroy-btn:focus {
+  background-color: #ff7070;
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-radius: 8px;
+  background-color: #f6f6fe;
+  padding: 32px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.box:not(:last-child) {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}

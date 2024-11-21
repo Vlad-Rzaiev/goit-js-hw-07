@@ -1,0 +1,96 @@
+body {
+  margin: 16px;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #2e2f42;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.text-link {
+  margin-bottom: 20px;
+}
+
+.go-back-link {
+  display: block;
+  max-width: 85px;
+  padding: 8px;
+  border: 1px solid #212121;
+  border-radius: 8px;
+  transition: background-color 250ms linear;
+}
+
+.go-back-link:hover,
+.go-back-link:focus {
+  background-color: #c9c6c6;
+}
+
+.login-form {
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 256px;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+.form-label {
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  display: block;
+}
+
+.form-label:first-child {
+  margin-bottom: 8px;
+}
+
+.form-input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 8px 16px;
+  display: block;
+  margin-top: 8px;
+}
+
+.form-btn {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background-color: #4e75ff;
+  cursor: pointer;
+  margin-top: 16px;
+  transition: background-color 250ms linear;
+}
+
+.form-btn:hover,
+.form-btn:focus {
+  background-color: #6c8cff;
+}
