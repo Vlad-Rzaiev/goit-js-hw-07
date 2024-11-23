@@ -27,8 +27,9 @@ function createBoxes(amount) {
 
   const fragment = document.createDocumentFragment();
 
-  for (let i = 0; i < amount.lenght; i++) {
+  for (let i = 0; i < amount; i++) {
     const div = document.createElement('div');
+    div.classList.add('box');
     div.style.backgroundColor = getRandomHexColor();
     div.style.width = `${30 + 10 * i}px`;
     div.style.height = `${30 + 10 * i}px`;
